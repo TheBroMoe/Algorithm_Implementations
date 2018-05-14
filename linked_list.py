@@ -4,3 +4,6 @@ class Node:
 		self.next = None
 	def __str__(self):
 		return str(data)
+class SinglyLinkedList:
+	def __init__(self):
+		self.tail = None
