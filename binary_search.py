@@ -31,7 +31,3 @@ def binary_search_recursive(givenList, first_element_index, last_element_index, 
 		else:
 			return midpoint
 
-store = [2,4,5,12,43,54,60,77]
-
-print(binary_search(store, 2))
-print(binary_search_recursive(store, 0, 7, 2))
