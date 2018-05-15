@@ -1,5 +1,8 @@
 
 def partiion(givenList, start, end):
+	if start == end:
+		return start
+
 	pivot, pivotIndex = givenList[start], start
 	finalIndex = end
 	less_than_pivot_index = finalIndex
