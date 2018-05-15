@@ -37,3 +37,10 @@ class Heap:
 		self.heap.pop()
 		self.sink(1)
 		return item
+
+	def heap_sort(self):
+		sortedList = []
+		for node in range(self.size):
+			n = self.pop()
+			sortedList.append(n)
+		return sortedList
